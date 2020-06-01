@@ -9,7 +9,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Theme plugin
-  Plug 'morhetz/gruvbox'
+  Plug 'gruvbox-community/gruvbox'
 
   " Autocomplete!
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -19,6 +19,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Start Screen
   Plug 'mhinz/vim-startify'
+
+  " Determine tab stops and stuff
+  Plug 'zsugabubus/crazy8.nvim'
 
   " Text Navigation
   Plug 'justinmk/vim-sneak'
