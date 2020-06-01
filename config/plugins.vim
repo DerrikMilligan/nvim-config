@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-startify'
 
   " Text Navigation
-  " Plug 'justinmk/vim-sneak'
+  Plug 'justinmk/vim-sneak'
   Plug 'unblevable/quick-scope'
 
   " Fancy status line
@@ -45,8 +45,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Buffers as tabs for visual aids - still a noob
   Plug 'ap/vim-buftabline'
 
-  " Fuzzy Files
-  Plug 'ctrlpvim/ctrlp.vim'
+  " Fuzzy finding
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'junegunn/fzf.vim'
+
+  " Better syntax highlighting for pretty much every language
+  Plug 'sheerun/vim-polyglot'
+
+  " Auto close pairs such as [], (), ``
+  Plug 'jiangmiao/auto-pairs'
+  " Close HTML tags
+  Plug 'alvan/vim-closetag'
 
 call plug#end()
 
