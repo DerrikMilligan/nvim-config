@@ -2,7 +2,6 @@
 - [lazygit](https://github.com/jesseduffield/lazygit)
 - [nodejs](https://nodejs.org/en/)
 - [ranger](https://github.com/ranger/ranger)
-- [fzf](https://github.com/junegunn/fzf#installation) (Potentially handled by a plugin someday)
 
 # Autocomplete
 You'll need to add the language servers you want CoC to have autocompleteion for different languages.
@@ -14,5 +13,5 @@ Install the extensions like so
 ```
 
 # Things to look into
-https://github.com/neoclide/coc.nvim/wiki/Multiple-cursors-support
-git fugitive
+- https://github.com/neoclide/coc.nvim/wiki/Multiple-cursors-support
+- git fugitive
