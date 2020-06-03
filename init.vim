@@ -8,7 +8,9 @@ source $HOME/.config/nvim/config/airline.vim
 source $HOME/.config/nvim/config/coc.vim
 source $HOME/.config/nvim/config/closetags.vim
 source $HOME/.config/nvim/config/ctrlp.vim
+source $HOME/.config/nvim/config/easy-align.vim
 source $HOME/.config/nvim/config/floaterm.vim
+source $HOME/.config/nvim/config/fzf.vim
 source $HOME/.config/nvim/config/gruvbox.vim
 source $HOME/.config/nvim/config/multi-cursor.vim
 " source $HOME/.config/nvim/config/nerdtree.vim

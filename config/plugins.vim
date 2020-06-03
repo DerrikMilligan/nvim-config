@@ -55,10 +55,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Better syntax highlighting for pretty much every language
   Plug 'sheerun/vim-polyglot'
 
-  " Auto close pairs such as [], (), ``
-  Plug 'jiangmiao/auto-pairs'
-  " Close HTML tags
-  Plug 'alvan/vim-closetag'
+  Plug 'jiangmiao/auto-pairs' " Auto close pairs such as [], (), ``
+  Plug 'alvan/vim-closetag' " Close HTML tags
+
+  " Easy alignment
+  Plug 'junegunn/vim-easy-align'
 
 call plug#end()
 

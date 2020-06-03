@@ -3,6 +3,7 @@
 - [nodejs](https://nodejs.org/en/)
 - [ranger](https://github.com/ranger/ranger)
 - [fzf](https://github.com/junegunn/fzf#installation) (Potentially handled by a plugin someday)
+- [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
 
 # Autocomplete
 You'll need to add the language servers you want CoC to have autocompleteion for different languages.
