@@ -20,7 +20,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Start Screen
   Plug 'mhinz/vim-startify'
 
-  " Determine tab stops and stuff
+  " Determine tab stops
   Plug 'zsugabubus/crazy8.nvim'
 
   " Text Navigation
@@ -36,14 +36,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Floating terminal tools
   Plug 'voldikss/vim-floaterm'
   
-  " Nice file explorer
-  " Plug 'preservim/nerdtree'
-
   " Background colors for hex codes n' stuff
-  Plug 'norcalli/nvim-colorizer.lua'
+  " Plug 'norcalli/nvim-colorizer.lua'
 
-  " Parentheses matching goodness
-  Plug 'kien/rainbow_parentheses.vim'
+  " Parentheses matching
+  " Plug 'kien/rainbow_parentheses.vim'
+  " Can't find a good one yet :(
 
   " Buffers as tabs for visual aids - still a noob
   Plug 'ap/vim-buftabline'
@@ -53,13 +51,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/fzf.vim'
 
   " Better syntax highlighting for pretty much every language
-  Plug 'sheerun/vim-polyglot'
+  " Plug 'sheerun/vim-polyglot'
 
   Plug 'jiangmiao/auto-pairs' " Auto close pairs such as [], (), ``
   Plug 'alvan/vim-closetag' " Close HTML tags
 
+  " Plug 'tpope/vim-surround' " Allows for surrounding things with tags, quotes, ect.
+
   " Easy alignment
   Plug 'junegunn/vim-easy-align'
+
+  " Special plugins for certain languages when coc doesn't cut it
+  " I've had issues with coc-go so we're going to try this
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 

@@ -15,8 +15,8 @@ source $HOME/.config/nvim/config/gruvbox.vim
 source $HOME/.config/nvim/config/multi-cursor.vim
 " source $HOME/.config/nvim/config/nerdtree.vim
 source $HOME/.config/nvim/config/quickscope.vim
-source $HOME/.config/nvim/config/rainbow.vim
 source $HOME/.config/nvim/config/sneak.vim
+source $HOME/.config/nvim/config/vim-go.vim
 
 " Personal Config
 source $HOME/.config/nvim/config/settings.vim
